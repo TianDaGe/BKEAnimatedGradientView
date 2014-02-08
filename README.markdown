@@ -6,7 +6,7 @@ Easily animate gradient transitions on UIViews. View it in [action](http://c.min
 
 ## Example Usage
 
-``` objective-c
+```objective-c
 BKEAnimatedGradientView *gradientView = [[BKEAnimatedGradientView alloc] initWithFrame:self.view.frame];
 [gradientView setGradientColors:@[[UIColor blueColor], [UIColor greenColor]]];
 [self.view addSubview:gradientView];
