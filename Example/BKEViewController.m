@@ -12,8 +12,6 @@
 
 @interface BKEViewController ()
 
-@property (nonatomic, retain) BKEAnimatedGradientView *gradientView;
-
 @end
 
 @implementation BKEViewController
@@ -22,13 +20,11 @@
 {
     [super viewDidLoad];
     
-    [self.view setBackgroundColor:[UIColor orangeColor]];
+    BKEAnimatedGradientView *gradientView = [[BKEAnimatedGradientView alloc] initWithFrame:self.view.frame];
+    [gradientView setGradientColors:@[[UIColor blueColor], [UIColor greenColor]]];
+    [self.view addSubview:gradientView];
     
-    _gradientView = [[BKEAnimatedGradientView alloc] initWithFrame:self.view.frame];
-    [_gradientView setGradientColors:@[[UIColor blueColor], [UIColor greenColor]]];
-    [self.view addSubview:_gradientView];
-    
-    [_gradientView changeGradientWithAnimation:@[[UIColor redColor], [UIColor orangeColor]] delay:1 duration:5];
+    [gradientView changeGradientWithAnimation:@[[UIColor redColor], [UIColor orangeColor]] delay:1 duration:5];
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle
