@@ -10,15 +10,18 @@
 		3603611B18A00ADB00F5E96E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3603611A18A00ADB00F5E96E /* Foundation.framework */; };
 		3603611D18A00ADB00F5E96E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3603611C18A00ADB00F5E96E /* CoreGraphics.framework */; };
 		3603611F18A00ADC00F5E96E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3603611E18A00ADC00F5E96E /* UIKit.framework */; };
-		3603612518A00ADC00F5E96E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3603612318A00ADC00F5E96E /* InfoPlist.strings */; };
-		3603612718A00ADC00F5E96E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3603612618A00ADC00F5E96E /* main.m */; };
-		3603612B18A00ADC00F5E96E /* BKEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3603612A18A00ADC00F5E96E /* BKEAppDelegate.m */; };
-		3603612D18A00ADC00F5E96E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3603612C18A00ADC00F5E96E /* Images.xcassets */; };
 		3603613418A00ADC00F5E96E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3603613318A00ADC00F5E96E /* XCTest.framework */; };
 		3603613518A00ADC00F5E96E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3603611A18A00ADB00F5E96E /* Foundation.framework */; };
 		3603613618A00ADC00F5E96E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3603611E18A00ADC00F5E96E /* UIKit.framework */; };
 		3603613E18A00ADC00F5E96E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3603613C18A00ADC00F5E96E /* InfoPlist.strings */; };
 		3603614018A00ADC00F5E96E /* BKEAnimatedGradientViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3603613F18A00ADC00F5E96E /* BKEAnimatedGradientViewTests.m */; };
+		3603615218A00B0100F5E96E /* BKEAnimatedGradientView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3603614A18A00B0100F5E96E /* BKEAnimatedGradientView-Info.plist */; };
+		3603615318A00B0100F5E96E /* BKEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3603614D18A00B0100F5E96E /* BKEAppDelegate.m */; };
+		3603615418A00B0100F5E96E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3603614E18A00B0100F5E96E /* InfoPlist.strings */; };
+		3603615518A00B0100F5E96E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3603615018A00B0100F5E96E /* Images.xcassets */; };
+		3603615618A00B0100F5E96E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3603615118A00B0100F5E96E /* main.m */; };
+		3603615B18A00B5200F5E96E /* BKEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3603615A18A00B5200F5E96E /* BKEViewController.m */; };
+		3603615E18A00B9600F5E96E /* BKEAnimatedGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3603615D18A00B9600F5E96E /* BKEAnimatedGradientView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,18 +39,22 @@
 		3603611A18A00ADB00F5E96E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3603611C18A00ADB00F5E96E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3603611E18A00ADC00F5E96E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		3603612218A00ADC00F5E96E /* BKEAnimatedGradientView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BKEAnimatedGradientView-Info.plist"; sourceTree = "<group>"; };
-		3603612418A00ADC00F5E96E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3603612618A00ADC00F5E96E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3603612818A00ADC00F5E96E /* BKEAnimatedGradientView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BKEAnimatedGradientView-Prefix.pch"; sourceTree = "<group>"; };
-		3603612918A00ADC00F5E96E /* BKEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKEAppDelegate.h; sourceTree = "<group>"; };
-		3603612A18A00ADC00F5E96E /* BKEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKEAppDelegate.m; sourceTree = "<group>"; };
-		3603612C18A00ADC00F5E96E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3603613218A00ADC00F5E96E /* BKEAnimatedGradientViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BKEAnimatedGradientViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3603613318A00ADC00F5E96E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3603613B18A00ADC00F5E96E /* BKEAnimatedGradientViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BKEAnimatedGradientViewTests-Info.plist"; sourceTree = "<group>"; };
 		3603613D18A00ADC00F5E96E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3603613F18A00ADC00F5E96E /* BKEAnimatedGradientViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKEAnimatedGradientViewTests.m; sourceTree = "<group>"; };
+		3603614A18A00B0100F5E96E /* BKEAnimatedGradientView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BKEAnimatedGradientView-Info.plist"; sourceTree = "<group>"; };
+		3603614B18A00B0100F5E96E /* BKEAnimatedGradientView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BKEAnimatedGradientView-Prefix.pch"; sourceTree = "<group>"; };
+		3603614C18A00B0100F5E96E /* BKEAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKEAppDelegate.h; sourceTree = "<group>"; };
+		3603614D18A00B0100F5E96E /* BKEAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKEAppDelegate.m; sourceTree = "<group>"; };
+		3603614F18A00B0100F5E96E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3603615018A00B0100F5E96E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3603615118A00B0100F5E96E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3603615918A00B5200F5E96E /* BKEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKEViewController.h; sourceTree = "<group>"; };
+		3603615A18A00B5200F5E96E /* BKEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKEViewController.m; sourceTree = "<group>"; };
+		3603615C18A00B9600F5E96E /* BKEAnimatedGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKEAnimatedGradientView.h; sourceTree = "<group>"; };
+		3603615D18A00B9600F5E96E /* BKEAnimatedGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKEAnimatedGradientView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +84,8 @@
 		3603610E18A00ADB00F5E96E = {
 			isa = PBXGroup;
 			children = (
-				3603612018A00ADC00F5E96E /* BKEAnimatedGradientView */,
+				3603615718A00B0A00F5E96E /* BKEAnimatedGradientView */,
+				3603614918A00B0100F5E96E /* Example */,
 				3603613918A00ADC00F5E96E /* BKEAnimatedGradientViewTests */,
 				3603611918A00ADB00F5E96E /* Frameworks */,
 				3603611818A00ADB00F5E96E /* Products */,
@@ -104,28 +112,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3603612018A00ADC00F5E96E /* BKEAnimatedGradientView */ = {
-			isa = PBXGroup;
-			children = (
-				3603612918A00ADC00F5E96E /* BKEAppDelegate.h */,
-				3603612A18A00ADC00F5E96E /* BKEAppDelegate.m */,
-				3603612C18A00ADC00F5E96E /* Images.xcassets */,
-				3603612118A00ADC00F5E96E /* Supporting Files */,
-			);
-			path = BKEAnimatedGradientView;
-			sourceTree = "<group>";
-		};
-		3603612118A00ADC00F5E96E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3603612218A00ADC00F5E96E /* BKEAnimatedGradientView-Info.plist */,
-				3603612318A00ADC00F5E96E /* InfoPlist.strings */,
-				3603612618A00ADC00F5E96E /* main.m */,
-				3603612818A00ADC00F5E96E /* BKEAnimatedGradientView-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		3603613918A00ADC00F5E96E /* BKEAnimatedGradientViewTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +128,39 @@
 				3603613C18A00ADC00F5E96E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3603614918A00B0100F5E96E /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				3603614C18A00B0100F5E96E /* BKEAppDelegate.h */,
+				3603614D18A00B0100F5E96E /* BKEAppDelegate.m */,
+				3603615918A00B5200F5E96E /* BKEViewController.h */,
+				3603615A18A00B5200F5E96E /* BKEViewController.m */,
+				3603615818A00B3100F5E96E /* Resources */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		3603615718A00B0A00F5E96E /* BKEAnimatedGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				3603615C18A00B9600F5E96E /* BKEAnimatedGradientView.h */,
+				3603615D18A00B9600F5E96E /* BKEAnimatedGradientView.m */,
+			);
+			path = BKEAnimatedGradientView;
+			sourceTree = "<group>";
+		};
+		3603615818A00B3100F5E96E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3603614A18A00B0100F5E96E /* BKEAnimatedGradientView-Info.plist */,
+				3603614B18A00B0100F5E96E /* BKEAnimatedGradientView-Prefix.pch */,
+				3603614E18A00B0100F5E96E /* InfoPlist.strings */,
+				3603615018A00B0100F5E96E /* Images.xcassets */,
+				3603615118A00B0100F5E96E /* main.m */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +239,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3603612518A00ADC00F5E96E /* InfoPlist.strings in Resources */,
-				3603612D18A00ADC00F5E96E /* Images.xcassets in Resources */,
+				3603615518A00B0100F5E96E /* Images.xcassets in Resources */,
+				3603615218A00B0100F5E96E /* BKEAnimatedGradientView-Info.plist in Resources */,
+				3603615418A00B0100F5E96E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3603612718A00ADC00F5E96E /* main.m in Sources */,
-				3603612B18A00ADC00F5E96E /* BKEAppDelegate.m in Sources */,
+				3603615618A00B0100F5E96E /* main.m in Sources */,
+				3603615318A00B0100F5E96E /* BKEAppDelegate.m in Sources */,
+				3603615E18A00B9600F5E96E /* BKEAnimatedGradientView.m in Sources */,
+				3603615B18A00B5200F5E96E /* BKEViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,18 +286,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3603612318A00ADC00F5E96E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3603612418A00ADC00F5E96E /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		3603613C18A00ADC00F5E96E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3603613D18A00ADC00F5E96E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3603614E18A00B0100F5E96E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3603614F18A00B0100F5E96E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -363,8 +385,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BKEAnimatedGradientView/BKEAnimatedGradientView-Prefix.pch";
-				INFOPLIST_FILE = "BKEAnimatedGradientView/BKEAnimatedGradientView-Info.plist";
+				GCC_PREFIX_HEADER = "Example/BKEAnimatedGradientView-Prefix.pch";
+				INFOPLIST_FILE = "Example/BKEAnimatedGradientView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -376,8 +398,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BKEAnimatedGradientView/BKEAnimatedGradientView-Prefix.pch";
-				INFOPLIST_FILE = "BKEAnimatedGradientView/BKEAnimatedGradientView-Info.plist";
+				GCC_PREFIX_HEADER = "Example/BKEAnimatedGradientView-Prefix.pch";
+				INFOPLIST_FILE = "Example/BKEAnimatedGradientView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -444,6 +466,7 @@
 				3603614518A00ADC00F5E96E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3603614618A00ADC00F5E96E /* Build configuration list for PBXNativeTarget "BKEAnimatedGradientViewTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +475,7 @@
 				3603614818A00ADC00F5E96E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

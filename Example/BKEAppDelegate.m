@@ -8,13 +8,18 @@
 
 #import "BKEAppDelegate.h"
 
+#import "BKEViewController.h"
+
 @implementation BKEAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+
+    BKEViewController *viewController = [[BKEViewController alloc] init];
+    
     self.window.backgroundColor = [UIColor whiteColor];
+    [self.window setRootViewController:viewController];
     [self.window makeKeyAndVisible];
     return YES;
 }
